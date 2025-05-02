@@ -23,6 +23,11 @@ public class SpringbootJenkinsMavenTestApplication {
 	{
 		return "this is maven test";
 	}
+	@RequestMapping("/branch")
+	public String test2()
+	{
+		return "this is branch test";
+	}
 	
 
 }
